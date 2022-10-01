@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara's Calculator</title>
+    <link rel = "stylesheet" href = "calculatorGUI.css">
+</head>
+<body style="background-color:black;">
+    <div class="container">
+        <br><br>
+        <input type="text" value = '0' name="screen" id="screen">
+        <br>
+        <section class="calculatorButtons">
+            <button type="button" class="operations" onclick = "addingToScreen('nCr')">nCr</button>
+            <button type="button" class="operations" onclick = "addingToScreen('nPr')">nPr</button>
+            <button type="button" class="operations" onclick = "addingToScreen('/')">/</button>
+            <button type="button" class="operations" onclick = "addingToScreen('%')">%</button>
+            <button type="button" class="number" onclick = "addingToScreen('7')">7</button>
+            <button type="button" class="number" onclick = "addingToScreen('8')">8</button>
+            <button type="button" class="number" onclick = "addingToScreen('9')">9</button>
+            <button type="button" class="operations" onclick = "addingToScreen('x')">x</button>
+            <button type="button" class="number" onclick = "addingToScreen('4')">4</button>
+            <button type="button" class="number" onclick = "addingToScreen('5')">5</button>
+            <button type="button" class="number" onclick = "addingToScreen('6')">6</button>
+            <button type="button" class="operations" onclick = "addingToScreen('-')">-</button>
+            <button type="button" class="number" onclick = "addingToScreen('1')">1</button>
+            <button type="button" class="number" onclick = "addingToScreen('2')">2</button>
+            <button type="button" class="number" onclick = "addingToScreen('3')">3</button>
+            <button type="button" class="operations" onclick = "addingToScreen('+')">+</button>
+            <button type="button" class="operations" onclick = "addingToScreen('=')">=</button>
+            <button type="button" class="number" onclick = "addingToScreen('0')">0</button>
+            <button type="button" class="clear" onclick = "addingToScreen('C')">C</button>
+            <button type="button" class="operations" onclick = "addingToScreen('!')">!</button>
+        </section>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #23283b;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #000;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 35px;
+    border-radius: 10px;
+    user-select: none;
+  }
+
+  input[type="text"]
+  {
+      background: rgba(0, 0, 0, 0);
+      border: none;
+      outline: none;
+  }
+
+  input, select, textarea{
+    text-align: right;
+    color: rgba(150, 150, 150, 0.87);
+    height: 40px;
+    line-height: 3;
+    font-size: 29px;
+  }
+
+  .calculatorButtons {
+    display: grid;
+    grid: repeat(5, 70px) / repeat(4, 70px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  
+  .calculatorButtons button {
+    outline: none;
+    border: none;
+    border-radius: 122px;
+    background-color: #232534;
+    color: #fff;
+    font-size: x-large;
+  }
+  
+  .calculatorButtons .operations {
+    color: #000;
+    background: #00E6F6;
+    font-weight: bold;
+  }
+  
+  .number:hover {
+    background-color: #282a3a;
+  }
+
+  .clear:hover {
+    background-color: rgb(137, 104, 104);
+  }
+  
+  .operations:hover {
+    background-color: #00c6d4;
+  }
+
+  /*Button style obtained from @codebyshubham*/
